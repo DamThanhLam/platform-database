@@ -7,9 +7,7 @@
 
     <groupId>org.sento.platform.database</groupId>
     <artifactId>platform-database</artifactId>
-    <version>1.0.2</version>
-    <name>platform-database</name>
-    <description>Reusable reactive MongoDB starter for Spring WebFlux microservices</description>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
     <!-- ================== PROPERTIES ================== -->
