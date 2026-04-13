@@ -9,18 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Setter
 public class MongoProperties {
 
-    /**
-     * Bật/tắt bộ starter này.
-     */
     private boolean enabled = true;
 
-    /**
-     * Tên database mặc định nếu service không set spring.data.mongodb.database.
-     */
-    private String database;
-
-    /**
-     * Bật auditing createdAt/updatedAt.
-     */
     private boolean auditingEnabled = true;
 }
