@@ -33,4 +33,18 @@ public abstract class BaseDocument {
     @LastModifiedBy
     @Field("updated_by")
     private String updatedBy;
+
+    public Instant getCreatedAt() {
+        if (this.createdAt == null) {
+            return Instant.ofEpochSecond(0);
+        }
+        return this.createdAt;
+    }
+
+    public Instant getUpdatedAt() {
+        if (this.updatedAt == null) {
+            return Instant.ofEpochSecond(0);
+        }
+        return this.updatedAt;
+    }
 }
