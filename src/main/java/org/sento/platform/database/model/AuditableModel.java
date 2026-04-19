@@ -5,9 +5,5 @@ import lombok.experimental.SuperBuilder;
 
 @SuperBuilder
 @Getter
-public abstract class AuditableModel {
-    private long createdAt;
-    private long updatedAt;
-    private String createdBy;
-    private String updatedBy;
+public abstract class AuditableModel extends BaseModel{
 }
