@@ -1,4 +1,4 @@
-package org.sento.platform.database.domain;
+package org.sento.platform.database.document;
 
 import lombok.*;
 import org.springframework.data.mongodb.core.index.GeoSpatialIndexed;
