@@ -50,4 +50,14 @@ public class PaginationModel<M> {
                     .build()
             );
     }
+
+    public <R> PaginationModel<R> withItems(List<R> newItems) {
+        return PaginationModel.<R>builder()
+            .items(newItems)
+            .nextPageToken(nextPageToken)
+            .previousPageToken(previousPageToken)
+            .hasNext(hasNext)
+            .hasPrevious(hasPrevious)
+            .build();
+    }
 }
