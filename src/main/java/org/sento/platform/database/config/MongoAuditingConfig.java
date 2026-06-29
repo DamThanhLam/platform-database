@@ -17,7 +17,6 @@ import reactor.core.publisher.Mono;
 )
 public class MongoAuditingConfig {
 
-
     /**
      * By default, it returns anonymous if the service hasn't defined an auditor itself.
      * Other services can override this bean.
